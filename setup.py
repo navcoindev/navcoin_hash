@@ -1,6 +1,6 @@
 from distutils.core import setup, Extension
 
-dash_hash_module = Extension('navcoin_hash',
+navcoin_hash_module = Extension('navcoin_hash',
                                  sources = ['navcoinmodule.c',
                                             'navcoin.c',
                                             'sha3/blake.c',
