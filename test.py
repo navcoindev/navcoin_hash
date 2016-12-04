@@ -43,7 +43,7 @@ class TestSequenceFunctions(unittest.TestCase):
     def test_navcoin_hash(self):
         self.pow_hash = hexlify(navcoin_hash.getPoWHash(self.block_header))
         self.assertEqual(self.pow_hash, self.best_hash)
-
+# I get an AssertionError on the line above!  -- Mo
 
 if __name__ == '__main__':
     unittest.main()
